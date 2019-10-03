@@ -32,3 +32,9 @@ The map() method creates a new array with the results of calling a provided func
 var new_array = arr.map(function callback(currentValue[, index[, array]]) {
     // Return element for new_array
 }[, thisArg])
+
+## Array reduce()
+
+The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+
+arr.reduce(callback(accumulator, currentValue[, index[, array]])[, initialValue])

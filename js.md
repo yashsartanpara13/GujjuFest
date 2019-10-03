@@ -24,3 +24,11 @@ const myFirstPromise = new Promise((resolve, reject) => {
   // or
   //   reject("failure reason"); // rejected
 });
+
+## Array map()
+
+The map() method creates a new array with the results of calling a provided function on every element in the calling array.
+
+var new_array = arr.map(function callback(currentValue[, index[, array]]) {
+    // Return element for new_array
+}[, thisArg])
